@@ -1,8 +1,8 @@
 package cn.iflyapi.design.pattern.factory.simple;
 
-import cn.iflyapi.design.pattern.factory.entity.Meizu;
+import cn.iflyapi.design.pattern.factory.entity.MeizuPhone;
 import cn.iflyapi.design.pattern.factory.entity.Phone;
-import cn.iflyapi.design.pattern.factory.entity.XiaoMi;
+import cn.iflyapi.design.pattern.factory.entity.XiaoMiPhone;
 
 /**
  * @author: flyhero
@@ -21,10 +21,10 @@ public class SimplePhoneFactory {
         Phone phone = null;
         switch (brand) {
             case "meizu":
-                phone = new Meizu();
+                phone = new MeizuPhone();
                 break;
             case "xiaomi":
-                phone = new XiaoMi();
+                phone = new XiaoMiPhone();
                 break;
             default:
                 break;
@@ -51,12 +51,4 @@ public class SimplePhoneFactory {
         return phone;
     }
 
-    public static void main(String[] args) {
-        SimplePhoneFactory simplePhoneFactory = new SimplePhoneFactory();
-        simplePhoneFactory.produce("xiaomi").run();
-        simplePhoneFactory.produce("meizu").run();
-
-        simplePhoneFactory.produceX(XiaoMi.class).run();
-        simplePhoneFactory.produceX(Meizu.class).run();
-    }
 }
