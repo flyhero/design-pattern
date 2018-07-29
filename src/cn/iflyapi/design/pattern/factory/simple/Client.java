@@ -10,10 +10,10 @@ import cn.iflyapi.design.pattern.factory.entity.XiaoMiPhone;
 public class Client {
     public static void main(String[] args) {
         SimplePhoneFactory simplePhoneFactory = new SimplePhoneFactory();
-        simplePhoneFactory.produce("xiaomi").run();
-        simplePhoneFactory.produce("meizu").run();
+        simplePhoneFactory.produce("xiaomi").brand();
+        simplePhoneFactory.produce("meizu").brand();
 
-        simplePhoneFactory.produceX(XiaoMiPhone.class).run();
-        simplePhoneFactory.produceX(MeizuPhone.class).run();
+        simplePhoneFactory.produceX(XiaoMiPhone.class).brand();
+        simplePhoneFactory.produceX(MeizuPhone.class).brand();
     }
 }

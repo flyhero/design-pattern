@@ -7,9 +7,9 @@ package cn.iflyapi.design.pattern.factory.method;
 public class Client {
     public static void main(String[] args) {
         IFactory meizu = new MeizuFactory();
-        meizu.produce().run();
+        meizu.produce().brand();
 
         IFactory xiaomi = new XiaoMiFactory();
-        xiaomi.produce().run();
+        xiaomi.produce().brand();
     }
 }
