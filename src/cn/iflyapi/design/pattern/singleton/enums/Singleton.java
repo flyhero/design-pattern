@@ -13,4 +13,8 @@ public enum Singleton {
     public void method() {
         System.out.println("单例枚举方法");
     }
+
+    public static void main(String[] args) {
+        Singleton.INSTANCE.method();
+    }
 }
