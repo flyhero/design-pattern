@@ -29,10 +29,10 @@ public class Director {
         return builder.getResult();
     }
 
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
         Builder builder = new RobotBuilder();
         Director director = new Director(builder);
         Robot robot = director.build();
         System.out.println(robot.toString());
-    }
+    }*/
 }
