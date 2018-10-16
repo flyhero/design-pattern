@@ -6,23 +6,13 @@ package cn.iflyapi.design.pattern.prototype;
  * @author: flyhero
  * @date: 2018-09-25 下午7:18
  */
-public abstract class Immortal implements Cloneable {
+public interface Immortal extends Cloneable {
 
     /**
-     * 覆盖Object中的clone方法
+     * 神仙会克隆出另一个自己
      *
      * @return
      */
-    @Override
-    public Immortal clone() {
-        Immortal prototype = null;
-        try {
-            prototype = (Immortal) super.clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
-        return prototype;
-    }
-
+    Immortal clone();
 
 }

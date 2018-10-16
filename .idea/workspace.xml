@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b60697b4-b867-475e-8109-84b19fee01d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/builder/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Immortal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Immortal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Pigsy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Pigsy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Wukong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Wukong.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,167 +19,43 @@
     <session id="1934509290">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Builder" value="1" />
+          <entry key="Client" value="1" />
+          <entry key="Wukong" value="1" />
           <entry key="builder" value="2" />
-          <entry key="java" value="9" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
-          <entry key="UML" value="3" />
+          <entry key="JAVA" value="16" />
+          <entry key="UML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="232" />
+          <entry key="java" value="732" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="232" />
+          <entry key="JAVA" value="732" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
     </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/builder/RobotBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding>
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/builder/Director.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding>
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/builder/Builder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/builder/Robot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-              <folding>
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Immortal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Wukong.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Cloneable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Pigsy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -200,9 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/factory/MeizuFactory.java" />
-        <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/factory/XiaoMiFactory.java" />
-        <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/factory/entity/Meizu.java" />
         <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/factory/entity/XiaoMi.java" />
         <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/factory/abs/IAbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/factory/abs/XiaomiFactory.java" />
@@ -247,8 +122,11 @@
         <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/builder/Director.java" />
         <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Prototype.java" />
         <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/ConcretePrototype.java" />
-        <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Immortal.java" />
+        <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/A.java" />
+        <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/B.java" />
         <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Pigsy.java" />
+        <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Cloud.java" />
+        <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Immortal.java" />
         <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Client.java" />
         <option value="$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Wukong.java" />
       </list>
@@ -274,10 +152,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="y" value="-540" />
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -285,8 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -316,13 +190,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="List&#9;PSI&#9;JAVA://java.util.List&#10;list&#9;PSI&#9;JAVA://java.awt.List" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="Mybatis" />
+    <property name="settings.editor.selected.configurable" value="org.plantuml.idea.lang.settings.PlantUmlSettingsPage" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -457,24 +333,26 @@
       <workItem from="1536374905777" duration="901000" />
       <workItem from="1536375834109" duration="497000" />
       <workItem from="1536577656227" duration="1084000" />
-      <workItem from="1537874232526" duration="1432000" />
+      <workItem from="1537874232526" duration="6958000" />
+      <workItem from="1539610812299" duration="1766000" />
+      <workItem from="1539663874083" duration="2081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36881000" />
+    <option name="totallyTimeSpent" value="46254000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-540" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22478157" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22460657" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3277372" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32650602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,10 +360,12 @@
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.304316" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30364963" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32889965" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="14" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -505,115 +385,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/cn.iflyapi.design.pattern.factory.MeizuFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>cn.iflyapi.design.pattern.factory.MeizuFactory</OriginalElement>
-          <nodes>
-            <node x="155.0" y="79.0">cn.iflyapi.design.pattern.factory.MeizuFactory</node>
-            <node x="0.0" y="79.0">cn.iflyapi.design.pattern.factory.XiaoMiFactory</node>
-            <node x="95.25" y="0.0">cn.iflyapi.design.pattern.factory.IFactory</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="cn.iflyapi.design.pattern.factory.MeizuFactory" target="cn.iflyapi.design.pattern.factory.IFactory">
-              <point x="0.0" y="-14.5" />
-              <point x="220.0" y="54.0" />
-              <point x="168.0" y="54.0" />
-              <point x="24.25" y="14.5" />
-            </edge>
-            <edge source="cn.iflyapi.design.pattern.factory.XiaoMiFactory" target="cn.iflyapi.design.pattern.factory.IFactory">
-              <point x="0.0" y="-14.5" />
-              <point x="67.5" y="54.0" />
-              <point x="119.5" y="54.0" />
-              <point x="-24.25" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-219.0" y="-93.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/cn.iflyapi.design.pattern.factory.entity.XiaoMi">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>cn.iflyapi.design.pattern.factory.entity.XiaoMi</OriginalElement>
-          <nodes>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.entity.Phone</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.entity.XiaoMi</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="45.0" y="54.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="352" column="63" lean-forward="true" selection-start-line="352" selection-start-column="63" selection-end-line="352" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/factory/simple/Readme.md" />
-    <entry file="uml://JAVA/cn.iflyapi.design.pattern.factory.abs.IAbstractFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>cn.iflyapi.design.pattern.factory.abs.IAbstractFactory</OriginalElement>
-          <nodes>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.abs.XiaomiFactory</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.abs.MeizuFactory</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.abs.IAbstractFactory</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.entity.XiaoMiPhone</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.entity.Phone</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.entity.XiaomiHeadset</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.entity.MeizuHeadset</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.entity.MeizuPhone</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.entity.Headset</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="75.0" y="75.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/cn.iflyapi.design.pattern.factory.method.IFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>cn.iflyapi.design.pattern.factory.method.IFactory</OriginalElement>
-          <nodes>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.method.IFactory</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.entity.XiaoMiPhone</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.entity.Phone</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.method.MeizuFactory</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.entity.MeizuPhone</node>
-            <node x="" y="">cn.iflyapi.design.pattern.factory.method.XiaoMiFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.1" x="200.0" y="93.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/factory/entity/XiaoMiPhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1148,16 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1168,10 +929,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/A.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/B.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/builder/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.iflyapi.design.pattern.prototype.Wukong">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.iflyapi.design.pattern.prototype.Wukong</OriginalElement>
+          <nodes>
+            <node x="122.0" y="160.0">cn.iflyapi.design.pattern.prototype.Pigsy</node>
+            <node x="54.625" y="0.0">java.lang.Cloneable</node>
+            <node x="58.125" y="80.0">cn.iflyapi.design.pattern.prototype.Immortal</node>
+            <node x="0.0" y="160.0">cn.iflyapi.design.pattern.prototype.Wukong</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cn.iflyapi.design.pattern.prototype.Immortal" target="java.lang.Cloneable">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="cn.iflyapi.design.pattern.prototype.Pigsy" target="cn.iflyapi.design.pattern.prototype.Immortal">
+              <point x="20.75" y="-15.0" />
+              <point x="184.25" y="135.0" />
+              <point x="148.25" y="135.0" />
+              <point x="38.625" y="15.0" />
+            </edge>
+            <edge source="cn.iflyapi.design.pattern.prototype.Wukong" target="cn.iflyapi.design.pattern.prototype.Immortal">
+              <point x="25.5" y="-15.0" />
+              <point x="76.5" y="135.0" />
+              <point x="96.75" y="135.0" />
+              <point x="-12.875" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-247.0" y="-53.0" />
+          <SelectedNodes>
+            <node>cn.iflyapi.design.pattern.prototype.Wukong</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Cloud.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/builder/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="e#323#324#0" expanded="true" />
             <element signature="e#354#355#0" expanded="true" />
@@ -1189,17 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/builder/Director.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Cloneable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1207,44 +1021,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Wukong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Pigsy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="247">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Immortal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+    <entry file="uml://JAVA/cn.iflyapi.design.pattern.prototype.Client">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.iflyapi.design.pattern.prototype.Client</OriginalElement>
+          <nodes>
+            <node x="0.0" y="215.0">cn.iflyapi.design.pattern.prototype.Pigsy</node>
+            <node x="183.0" y="0.0">java.lang.Cloneable</node>
+            <node x="153.0" y="80.0">cn.iflyapi.design.pattern.prototype.Immortal</node>
+            <node x="237.0" y="182.0">cn.iflyapi.design.pattern.prototype.Wukong</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cn.iflyapi.design.pattern.prototype.Immortal" target="java.lang.Cloneable">
+              <point x="0.0" y="-26.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="cn.iflyapi.design.pattern.prototype.Wukong" target="cn.iflyapi.design.pattern.prototype.Immortal">
+              <point x="0.0" y="-92.5" />
+              <point x="367.5" y="157.0" />
+              <point x="280.5" y="157.0" />
+              <point x="42.5" y="26.0" />
+            </edge>
+            <edge source="cn.iflyapi.design.pattern.prototype.Pigsy" target="cn.iflyapi.design.pattern.prototype.Immortal">
+              <point x="0.0" y="-59.5" />
+              <point x="108.5" y="157.0" />
+              <point x="195.5" y="157.0" />
+              <point x="-42.5" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9266409266409267" x="249.0" y="183.5" />
+          <SelectedNodes>
+            <node>cn.iflyapi.design.pattern.prototype.Pigsy</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Wukong.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/iflyapi/design/pattern/prototype/Immortal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="18" />
         </state>
       </provider>
     </entry>
